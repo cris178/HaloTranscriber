@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'ForerunnerPromethean';
+    src: url('fonts/ForerunnerPromethean.eot');
+    src: url('fonts/ForerunnerPromethean.otf');
+    src: url('fonts/ForerunnerPromethean.ttf');     
+    src: 
+        url('ForerunnerPromethean.eot?#iefix')format(embedded-opentype),
+        url('ForerunnerPromethean.otf')format('opentype'),
+        url('ForerunnerPromethean.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background: radial-gradient(#12293d,black);
+    overflow: hidden;
+    color:white;
+    font-family: futura;
+}
+
+.overlay {
+    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-size: 1000px 2px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+form{
+    width:50em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+span:hover{
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #182f42, 0 0 40px #182f42, 0 0 50px #182f42, 0 0 60px #182f42, 0 0 70px #182f42;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #426C8F 0 0 40px #426C8F 0 0 50px #426C8F 0 0 60px #426C8F 0 0 70px #426C8F 0 0 80px #ff4da6;
+    }
+  }
+
+
+
+.forerunner{
+    width: 50rem;
+    height: 50rem;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'ForerunnerPromethean', futura;
+    font-size: 4rem;
+}
+
+.forerunner-text{
+    font-family: 'ForerunnerPromethean', futura;
+    font-size: 2.5em;
+    margin: 0px;
+    margin-top: 2rem;
+    padding: 0px;
+    line-height: 10px;
+}
+
+p{
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+
+.regular1{
+    position: absolute;
+    left:2.5rem;
+    right:0;
+    top:5rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1.9ch;
+}
+
+.regular2{
+    position: absolute;
+    left:2.5rem;
+    right:0;
+    top:11.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1.9ch;
+}
+
+.regular3{
+    position: absolute;
+    left:1.5rem;
+    right:0;
+    top:18rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1.9ch;
+}
+
+.regular4{
+    position: absolute;
+    left:1.5rem;
+    right:0;
+    top:24rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1.9ch;
+}
+
+.regular5{
+    position: absolute;
+    left:1rem;
+    right:0;
+    top:31rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1ch;
+}
+
+.regular6{
+    position: absolute;
+    left:1rem;
+    right:0;
+    top:38rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: futura;
+    font-size: 1rem;
+    letter-spacing: 1ch;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen
+
+  and (min-device-width: 275px)
+
+  and (max-device-width: 812px)
+
+  and (orientation: portrait) {
+    .forerunner{
+        width: 100vw;
+        height: 80rem;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: 'ForerunnerPromethean', futura;
+        font-size: 8rem;
+    }
+
+
+    .regular1{
+        position: absolute;
+        left:2.5rem;
+        right:0;
+        top:9rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1.9ch;
+    }
+    
+    .regular2{
+        position: absolute;
+        left:2.5rem;
+        right:0;
+        top:22rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1.9ch;
+    }
+    
+    .regular3{
+        position: absolute;
+        left:1.5rem;
+        right:0;
+        top:35rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1.9ch;
+    }
+    
+    .regular4{
+        position: absolute;
+        left:1.5rem;
+        right:0;
+        top:47rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1.9ch;
+    }
+    
+    .regular5{
+        position: absolute;
+        left:1rem;
+        right:0;
+        top:61rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1ch;
+    }
+    
+    .regular6{
+        position: absolute;
+        left:1rem;
+        right:0;
+        top:73rem;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: futura;
+        font-size: 2rem;
+        letter-spacing: 1ch;
+    }
+
+}
