@@ -9,7 +9,7 @@
     <body>
         <div class = "overlay">
             <div class="forerunner">
-                <p><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> </p> 
+                <p><span onClick="getChar('a')">a</span> <span onClick="getChar('b')">b</span> <span onClick="getChar('c')">c</span> <span onClick="getChar('d')">d</span> <span onClick="getChar('e')">e</span> <span onClick="getChar('f')">f</span> <span onClick="getChar('g')">g</span> </p> 
                 <p class="regular1">A B C D E F G</p> 
                 <p><span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span></p>
                 <p class="regular2">H I J K L M N </p>
@@ -23,12 +23,37 @@
                 <p class="regular6">8 9 0 .</p>
             </div>
             <form>
+                <div>
+                    <div id="display"></div>
+                    <span onClick="clears()" class="exit">x</span>
+                </div>
                 <div class="form-group">
-                    <input type="text" placeholder="translate..." id="submission" />
+                    <input type="text" placeholder="Translating message..." id="submission" />
                     <label class="forerunner-text">Forerunner Promethean</label>
                     <label>Forerunner &nbsp;  Promethean</label>
                 </div>
             </form>
         </div>
     </body>
+    <script>
+        let str = "";
+        function getChar(char){
+            console.log(char);
+            str = str + char;
+            console.log(str);
+            setDisplay();
+            return;
+        }
+        let dis = document.getElementById("display");
+        function setDisplay(){
+            dis.innerHTML = str;
+            return;
+        }
+
+        function clears(){
+            str = "";
+            dis.innerHTML = str;
+            return;
+        }
+    </script>
 </html>
