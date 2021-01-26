@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ForerunnerPromethean';
+    src: url('fonts/ForerunnerPromethean.eot');
+    src: url('fonts/ForerunnerPromethean.otf');
+    src: url('fonts/ForerunnerPromethean.ttf');     
+    src: 
+        url('ForerunnerPromethean.eot?#iefix')format(embedded-opentype),
+        url('ForerunnerPromethean.otf')format('opentype'),
+        url('ForerunnerPromethean.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
